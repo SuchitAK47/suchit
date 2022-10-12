@@ -1,0 +1,8 @@
+div{
+    height:10000px;
+    width:1200px;
+    background-image: url(images/panda.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+
+}

@@ -1,0 +1,18 @@
+p::after{
+    content:" hi thise is a psudo element selctor";
+}
+h1::after{
+    content: " suchit";
+}
+h1::before{
+    content: " suchit ";
+}
+h1::first-letter{
+    background-color:black ;
+    font-size: 100px;
+
+}
+P::first-line{
+    background-color: red;
+    font-size: 50px;
+}

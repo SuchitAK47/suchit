@@ -1,0 +1,20 @@
+
+tfoot
+{
+    background-color: red;
+    text-align: center;
+}
+tbody
+{
+    background-color: grey;
+    text-align: center;
+}
+thead
+{
+    background-color:chartreuse ;
+    text-align: center;
+}
+tr
+{
+    height: 100px;
+}

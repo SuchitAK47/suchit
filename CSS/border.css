@@ -1,0 +1,15 @@
+.main{
+     height: 1024px;
+     width: 750px;
+     background-color: blueviolet;
+
+     border-top: 10px solid green;
+     border-bottom: 10px ridge red;
+     border-left: 10px ridge black;
+     border-right: 10px dotted yellow;
+     border-radius: 250px 250px 250px 250px;
+     
+
+     
+    
+}

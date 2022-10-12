@@ -1,0 +1,33 @@
+
+table
+{
+    background-color: black;
+    text-align: center;
+    border: white;
+}
+thead
+{
+    color: black;
+    text-align: center;
+    background-color: red;
+    
+}
+tbody
+{
+    color: gold;
+    text-align: center;
+}
+caption
+{
+    color:black ;
+    font-weight: bolder;
+    font-weight:bolder;
+}
+tfoot
+{
+    text-align: center;
+    color: black    ;
+    background-color:red;
+    font-size: x-large;
+    font-weight: bolder;
+}

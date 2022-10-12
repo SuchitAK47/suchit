@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul li{
+    float: left;
+    display: block;
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    list-style: none;
+    line-height: 40px; 
+    text-align: center;
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+ul li:hover{
+    background-color: gray;
+    color: white;
+}
+ul li>ul li{
+    display: none;
+}
+ul li:hover>ul li{
+    display: block;
+}
+ul li>ul li{
+    text-align: center;
+}

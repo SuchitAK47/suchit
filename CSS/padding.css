@@ -1,0 +1,20 @@
+.main{
+    height: 1024px;
+    width: 750px;
+    background-color: blueviolet;
+
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+     margin-left: 50px;
+     margin-top: 50px;
+     margin-right: 50px;
+     margin-bottom: 50px;
+     border: 15px ridge darkorange;
+
+     background-image:url(images/panda.jpg) ;
+     background-repeat: no-repeat;
+
+}

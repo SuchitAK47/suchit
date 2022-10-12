@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: opx;
+}
+
+.main {
+    background-color: blue;
+    width: 1200px;
+    height: 580px;
+    margin: auto;
+    background-image: url(images/domain.jpg);
+}
+
+.header {
+
+    width: 1200px;
+    height: 100px;
+}
+
+.logo {
+
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+li {
+    display: block;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 2px 1px 4px red;
+    border-radius: 20px;
+   
+
+}
+
+ul li:hover {
+    background-color: aqua;
+    
+}
+
+button {
+    margin: 30px;
+    background-color: aqua;
+    height: 40px;
+    width: 90px;
+    border-style: double;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-style: italic;
+    text-shadow: 4px 2px 8px red;
+}
+h1:hover{
+    transform: scale(1.5);
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 4px 2px 8px red;
+}
+p:hover{
+    transform: scale(1.5);
+}
+
+.domain {
+
+    text-align: center;
+    width: 1200px;
+    float: left;
+    margin-top: 200px;
+    font-size: 150%;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    text-shadow: 4px 2px 8px red;
+}
+
+input {
+    margin-left: 360px;
+    margin-top: 30px;
+    height: 25px;
+    width: 500px;
+    background-color: rgb(43, 70, 226);
+    color: whitesmoke;
+
+}
+
+.search {
+    margin-left: 500px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}

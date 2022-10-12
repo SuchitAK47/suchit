@@ -1,0 +1,22 @@
+.main{
+    background-color: blue;
+    height: 550px;
+    width: 700px;
+    margin: auto;
+}
+.header{
+    background-color: yellow;
+    height: 50px;
+    width: 700px;
+}
+.conatent{
+    background-color: aqua;
+    height: 450px;
+    width: 700px;
+}
+.footer{
+    background-color: orangered;
+    height: 50px;
+    width: 700px;
+}
+

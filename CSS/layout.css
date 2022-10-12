@@ -1,0 +1,50 @@
+
+.main{
+    background-color: blue;
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+}
+.header{
+    background-color: orangered;
+    width: 750px;
+    height: 150px;
+}
+.logo{
+    background-color:aqua;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.social{
+    background-color: yellow;
+    width: 550px;
+    height: 100px;
+    float: left;
+}
+.menu{
+    background-color: yellowgreen;
+    width: 550px;
+    height: 50px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+.content{
+    background-color: grey;
+    width: 750px;
+    height: 800px;
+}
+.footer{
+    background-color: green;
+    width: 750px;
+    height: 50px;
+}

@@ -1,0 +1,23 @@
+.one{background-color:blue ;
+    height: 90px;
+    width: 105px;
+    position:absolute;
+    left: 550px;
+    
+}
+.two{
+    background-color: green;
+    height: 90px;
+    width: 105px;
+    position: absolute;
+    left: 450px;
+    top: 100px;   
+}
+.three{
+    background-color: aqua;
+    height: 90px;
+    width: 105px;
+    position: absolute;
+    left: 350px;
+    top: 190px;
+}    

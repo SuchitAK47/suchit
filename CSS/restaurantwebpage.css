@@ -1,0 +1,71 @@
+
+.main{
+    background-color: blue;
+    width: 1350px;
+    height: 630px;
+    margin: auto;
+}
+.header{
+    background-color:black;
+    width: 1350px;
+    height: 100px;  
+}
+li{
+    float: left;
+    display: block;
+    line-height: 100PX;
+    margin-left: 60PX;
+    font-size: larger;
+    font-weight: bolder; 
+}
+a{
+    text-decoration: none;
+    text-shadow: 1px 3px 4px red;
+    color: whitesmoke;
+    border-radius: 50px;
+    font-weight: bolder;
+
+}
+a:hover{
+    background-color: red;
+}
+.content{
+    background-color: red;
+    width: 1350px;
+    height: 530px;
+    float: left;
+}
+h1{
+    position: relative;
+    left: 500px;
+    bottom: 380px;
+    color:whitesmoke;
+    font-size: 65px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 8px 6px 9px red;
+}
+p{
+    position: relative;
+    left: 530px;
+    bottom: 395px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-style: italic; 
+    font-weight: bold   ;
+    text-decoration:underline;
+    text-shadow: 8px 6px 9px red;
+}
+.logo{
+    background-color: yellow;
+    width: 200px;
+    height: 100px; 
+    float: left;
+}
+
+
+
+
+

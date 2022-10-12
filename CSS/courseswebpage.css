@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    /* background-color: blue; */
+    width: 1200px;
+    height: 580px;
+    margin: auto;
+    background-image: url(images/courses.jpg);
+}
+.header{
+    /* background-color: gray; */
+    width: 1200px;
+    height: 80px;
+}
+ul li{
+    display: block;
+    float: left;
+    margin-left: 35px;
+    padding-left: 50px;
+    line-height: 80px;
+    
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    text-shadow: 1px 2px red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.search{
+    position: relative;
+    left: 75px;
+    height: 25px;
+    width: 250px;
+    top: 20px;
+    
+}
+button{
+    width: 80px;
+    height: 25px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+    border-radius: 20px;
+
+}
+button:hover{
+    background-color:aqua;
+}
+.content{
+    width: 1200px;
+    height: 500px;
+    /* background-color:yellow; */
+}
+.content-2{
+    width: 290px;
+    height: 350px;
+    background-color:yellow;
+    opacity: 0.6;
+    position: relative;
+    left: 780px;
+    top: 50px;
+}
+input{
+    width: 210px;
+    height: 25px;
+    margin: 10px;
+    position: relative;
+    left: 15px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+.login{
+    width: 210px;
+    height: 25px;
+    position: relative;
+    left: 25px;
+}
+p{
+    position: relative;
+    top: 45px;
+    left: 50px;
+}
+.sign{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    color: black;
+    text-shadow: none;
+    text-decoration: underline;
+}
+h3{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+h1{
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    color: whitesmoke;
+    font-size: 75PX;
+    font-weight: bolder;
+}
+.text-1{
+    position: absolute;
+    top: 200px;
+    color: red;
+    font-size: 75PX;
+    font-weight: bolder;
+    
+}
+.text-2{
+    position: absolute;
+    top: 280px;
+}
