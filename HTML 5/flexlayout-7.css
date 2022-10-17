@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: red;
+    height: 100vh;
+}
+.hedaer{
+    background-color: yellow;
+    height: 10%;
+
+}
+.content{
+    background-color: gray;
+    height: 80vh;
+}
+.content-1{
+    background-color: green;
+    height: 50vh;
+    display: flex;
+}
+.article{
+    background-color: blue;
+    height: 45vh;
+            
+    margin-top: 15px;
+}
+.text-1{
+    background-color: indigo;
+    height: 20vh;
+    width: 80vh;
+    position: relative;
+    top: 15px;
+    left: 360px;
+    
+    
+}
+.text-2{
+    background-color:aqua;
+    height: 20vh;
+    width: 80vh;
+    position: relative;
+    top: 150px;
+    left: -25px;
+    
+    
+    
+}
+
+
+
+
+
+
+.content-2{
+    background-color: brown;
+    height: 30vh;
+}
+
+.footer{
+    background-color: aqua;
+    height: 10%;
+}

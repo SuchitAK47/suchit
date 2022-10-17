@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+}
+.header{
+    background-color: gray;
+    height: 20%;
+    display: flex;
+}
+.logo{
+    background-color: green;
+    width: 20%;
+}
+.nav{
+    background-color: aqua;
+    width: 80%;
+}
+.main{
+    background-color: yellow;
+    height: 70vh;
+}
+.content-1{
+    background-color: brown;
+    height: 40vh;
+}
+.content-2{
+    background-color: tomato;
+    height: 30vh;
+    display: flex;
+}
+.box-1{
+    background-color:orangered;
+    height: 25vh;
+    width: 50vh;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.box-2{
+    background-color:yellowgreen;
+    height: 25vh;
+    width: 50vh;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.box-3{
+    background-color:springgreen;
+    height: 25vh;
+    width: 50vh;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    background-color: red;
+    height: 10%;
+}

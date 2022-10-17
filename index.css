@@ -1,24 +1,29 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
-td a{
-    text-decoration: none;
+
+td a {
+
     display: block;
     color: red;
     font-weight: bolder;
+
 }
-table{
-    background-color:black;
+
+table {
+    background-color: black;
     box-sizing: border-box;
     /* border-style: dotted; */
 }
-th{
+
+th {
     color: red;
     font-weight: bolder;
 }
-td{
+
+td {
     color: red;
     font-weight: bolder;
 }

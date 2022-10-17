@@ -1,0 +1,27 @@
+.box{
+    background-color: rebeccapurple;
+    height: 200px;
+    width: 200px;
+
+    animation-name: boxcolor;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 1s;
+    
+}
+@keyframes boxcolor{
+    /* from{background-color: blue;}
+    to{background-color: green;} */
+
+    10%{background-color: blue;}
+    20%{background-color: green;}
+    30%{background-color: red;}
+    40%{background-color: violet;}
+    50%{background-color: magenta;}
+    60%{background-color: orange;}
+    70%{background-color: orangered;}
+    80%{background-color: brown;}
+    90%{background-color: yellowgreen;}
+    100%{background-color: yellow;}
+
+}
