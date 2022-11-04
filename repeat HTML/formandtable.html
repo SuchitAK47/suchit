@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+        background-color: aqua;
+    }
+    th,td{
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 6px;
+    }
+    
+    
+</style>
+
+<body>
+    <table align="center" bgcolor="liteblue">
+        <h1 align="center">Fill Your Details</h1>
+        <form action="">
+            <tr>
+                <td><b>Full Name:</b></td>
+                <td><input type="text" placeholder="Enter Your Name" size="100"></td>
+            </tr>
+            <tr>
+                <td><b>Fathers Name:</b></td>
+                <td><input type="text" placeholder="Enter your Fathers Name" size="100"></td>
+            </tr>
+            <tr>
+                <td><b>Email ID:</b></td>
+                <td><input type="email" size="100"></td>
+            </tr>
+            <tr>
+                <td><b>Mobile No:</b></td>
+                <td><input type="text" size="100"></td>
+            </tr>
+            <tr>
+                <td><b>Address:</b></td>
+                <td><input type="text" size="100"></td>
+            </tr>
+            
+        </form>
+    </table><br>
+    <form action="" align="center" >
+        <b>Photo:</b>
+        <input type="file"><br> <br>
+        <b>Select Your Contry:</b>
+        <select name="" id="">
+            <option value="India">India</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="America">America</option>
+            <option value="Canada">Canada</option>
+            <option value="England">England</option>
+        </select><br> <br>
+        <b>Select Your State:</b>
+        <select name="" id="">
+            <option value="Maharashtra">Maharastra</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Goa">Goa</option>
+            <option value="Karnatak">Karnatak</option>
+        </select><br><br>
+        <b>Select Your District:</b>
+        <select name="" id="">
+            <option value="Nagpur">Nagpur</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Amravati">Amravati</option>
+            <option value="Akola">Akola</option>
+        </select>
+    </form>
+
+    <table align="center" border="1" width="70%" bgcolor="liteblue">
+        <h1 align="center">Education Details</h1>
+        <form action="">
+            <tr>
+                <th>Sr No</th>
+                <th>Education</th>
+                <th>University/Board</th>
+                <th>Mark Obtain</th>
+                <th>Grade</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    SCC<input type="checkbox" name="SSC" value="SCC">
+                </td>
+                <td>
+                    Nagpur<input type="checkbox" name="Nagpur" value="Nagpur">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    HSC<input type="checkbox" name="HSC" value="HSC">
+                </td>
+                <td>
+                    Nagpur<input type="checkbox" name="Nagpur" value="Nagpur">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Graduation<input type="checkbox" name="Graduation" value="Graduation">
+                </td>
+                <td>
+                    Nagpur<input type="checkbox" name="Nagpur" value="Nagpur">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+
+                <td><button>Reset</button>|
+                    <button>Submit</button>
+
+
+                </td>
+            </tr>
+
+        </form>
+
+    </table>
+
+</body>
+
+</html>
